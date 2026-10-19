@@ -1,0 +1,43 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs, temporary files, and local caches
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+
+# Secrets and local environment overrides
+.env
+.env.*
+!.env.example
+
+# Common dependency and build outputs
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Tooling artifacts
+.eslintcache
+.parcel-cache/
+.next/
+.nuxt/
